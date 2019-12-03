@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6923fced-2401-49c8-811a-410a2eced102" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13/libexec" />
+  <component name="ProjectId" id="1URcldr6rV7Jx5AeLXmjV5C7HXk" />
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmd" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg/fuel" />
+      <recent name="$PROJECT_DIR$/input/01_01" />
+      <recent name="$PROJECT_DIR$/cmd/01_01" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.Run Day2-02">
+    <configuration name="Run Day1-01" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="aoc" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/day1/01.go" />
+      <package value="cmd/01_01" />
+      <directory value="$PROJECT_DIR$/cmd/01_01" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Day1-02" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="aoc" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/day1/01.go" />
+      <package value="cmd/01_01" />
+      <directory value="$PROJECT_DIR$/cmd/01_02" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Day2-01" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="aoc" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/day1/01.go" />
+      <package value="cmd/01_01" />
+      <directory value="$PROJECT_DIR$/cmd/02_01" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Day2-02" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="aoc" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/day1/01.go" />
+      <package value="cmd/01_01" />
+      <directory value="$PROJECT_DIR$/cmd/02_02" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestModule_Fuel in acastle.dev/aoc/pkg" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aoc" />
+      <working_directory value="$PROJECT_DIR$/pkg" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="acastle.dev/aoc/pkg" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestModule_Fuel$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestModule_TotalFuel in acastle.dev/aoc/pkg" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aoc" />
+      <working_directory value="$PROJECT_DIR$/pkg" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="acastle.dev/aoc/pkg" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestModule_TotalFuel$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestProgram_Run in acastle.dev/aoc/pkg/intcode" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aoc" />
+      <working_directory value="$PROJECT_DIR$/pkg/intcode" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="acastle.dev/aoc/pkg/intcode" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestProgram_Run$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.Run Day1-01" />
+      <item itemvalue="Go Build.Run Day1-02" />
+      <item itemvalue="Go Build.Run Day2-01" />
+      <item itemvalue="Go Build.Run Day2-02" />
+      <item itemvalue="Go Test.TestModule_Fuel in acastle.dev/aoc/pkg" />
+      <item itemvalue="Go Test.TestModule_TotalFuel in acastle.dev/aoc/pkg" />
+      <item itemvalue="Go Test.TestProgram_Run in acastle.dev/aoc/pkg/intcode" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestProgram_Run in acastle.dev/aoc/pkg/intcode" />
+        <item itemvalue="Go Test.TestModule_TotalFuel in acastle.dev/aoc/pkg" />
+        <item itemvalue="Go Test.TestModule_Fuel in acastle.dev/aoc/pkg" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
