@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6923fced-2401-49c8-811a-410a2eced102" name="Default Changelist" comment="" />
+    <list default="true" id="6923fced-2401-49c8-811a-410a2eced102" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/03_02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/03_01/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/nav/grid.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/nav/grid_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/nav/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +25,14 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1URcldr6rV7Jx5AeLXmjV5C7HXk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -27,13 +40,15 @@
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cmd" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inputs/03_01" />
+      <recent name="$PROJECT_DIR$/inputs" />
+      <recent name="$PROJECT_DIR$/03_01/input" />
       <recent name="$PROJECT_DIR$/pkg/fuel" />
       <recent name="$PROJECT_DIR$/input/01_01" />
-      <recent name="$PROJECT_DIR$/cmd/01_01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -48,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.Run Day2-02">
+  <component name="RunManager" selected="Go Build.go build acastle.dev/aoc/cmd/03_02">
     <configuration name="Run Day1-01" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="aoc" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -89,37 +104,55 @@
       <directory value="$PROJECT_DIR$/cmd/02_02" />
       <method v="2" />
     </configuration>
-    <configuration name="TestModule_Fuel in acastle.dev/aoc/pkg" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build acastle.dev/aoc/cmd/03_01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="aoc" />
-      <working_directory value="$PROJECT_DIR$/pkg" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="acastle.dev/aoc/pkg" />
+      <filePath value="$PROJECT_DIR$/cmd/03_01/main.go" />
+      <package value="acastle.dev/aoc/cmd/03_01" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestModule_Fuel$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestModule_TotalFuel in acastle.dev/aoc/pkg" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build acastle.dev/aoc/cmd/03_02" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="aoc" />
-      <working_directory value="$PROJECT_DIR$/pkg" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="acastle.dev/aoc/pkg" />
+      <filePath value="$PROJECT_DIR$/cmd/03_02/main.go" />
+      <package value="acastle.dev/aoc/cmd/03_02" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestModule_TotalFuel$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestProgram_Run in acastle.dev/aoc/pkg/intcode" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMinStepsToIntersection in acastle.dev/aoc/pkg/nav" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="aoc" />
-      <working_directory value="$PROJECT_DIR$/pkg/intcode" />
+      <working_directory value="$PROJECT_DIR$/pkg/nav" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="acastle.dev/aoc/pkg/intcode" />
+      <package value="acastle.dev/aoc/pkg/nav" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestProgram_Run$" />
+      <pattern value="^TestMinStepsToIntersection$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNumberOfStepsToPoint in acastle.dev/aoc/pkg/nav" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aoc" />
+      <working_directory value="$PROJECT_DIR$/pkg/nav" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="acastle.dev/aoc/pkg/nav" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestNumberOfStepsToPoint$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSumOfStepsToPoint in acastle.dev/aoc/pkg/nav" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aoc" />
+      <working_directory value="$PROJECT_DIR$/pkg/nav" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="acastle.dev/aoc/pkg/nav" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSumOfStepsToPoint$" />
       <method v="2" />
     </configuration>
     <list>
@@ -127,22 +160,54 @@
       <item itemvalue="Go Build.Run Day1-02" />
       <item itemvalue="Go Build.Run Day2-01" />
       <item itemvalue="Go Build.Run Day2-02" />
-      <item itemvalue="Go Test.TestModule_Fuel in acastle.dev/aoc/pkg" />
-      <item itemvalue="Go Test.TestModule_TotalFuel in acastle.dev/aoc/pkg" />
-      <item itemvalue="Go Test.TestProgram_Run in acastle.dev/aoc/pkg/intcode" />
+      <item itemvalue="Go Build.go build acastle.dev/aoc/cmd/03_01" />
+      <item itemvalue="Go Build.go build acastle.dev/aoc/cmd/03_02" />
+      <item itemvalue="Go Test.TestNumberOfStepsToPoint in acastle.dev/aoc/pkg/nav" />
+      <item itemvalue="Go Test.TestSumOfStepsToPoint in acastle.dev/aoc/pkg/nav" />
+      <item itemvalue="Go Test.TestMinStepsToIntersection in acastle.dev/aoc/pkg/nav" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestProgram_Run in acastle.dev/aoc/pkg/intcode" />
-        <item itemvalue="Go Test.TestModule_TotalFuel in acastle.dev/aoc/pkg" />
-        <item itemvalue="Go Test.TestModule_Fuel in acastle.dev/aoc/pkg" />
+        <item itemvalue="Go Build.go build acastle.dev/aoc/cmd/03_02" />
+        <item itemvalue="Go Test.TestMinStepsToIntersection in acastle.dev/aoc/pkg/nav" />
+        <item itemvalue="Go Test.TestSumOfStepsToPoint in acastle.dev/aoc/pkg/nav" />
+        <item itemvalue="Go Test.TestNumberOfStepsToPoint in acastle.dev/aoc/pkg/nav" />
+        <item itemvalue="Go Build.go build acastle.dev/aoc/cmd/03_01" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/nav/grid_test.go</url>
+          <line>24</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="gridOne[intersection]" language="go" />
+        <watch expression="gridTwo[intersection]" language="go" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
