@@ -143,4 +143,3 @@ func (p *Program) Equals(a int, b int, reg int) {
   }
   p.Counter += ParamsForOpcode[EQUALS] + 1
 }
-
