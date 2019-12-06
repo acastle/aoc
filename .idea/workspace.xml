@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6923fced-2401-49c8-811a-410a2eced102" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/03_02/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputs/03_01/input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/nav/grid.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/nav/grid_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/nav/util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/04_01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/04_01/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/05_01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/05_01/input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/intcode/intcode.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/intcode/intcode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/intcode/intcode_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/intcode/intcode_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cmd" />
+      <recent name="$PROJECT_DIR$/cmd/" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build acastle.dev/aoc/cmd/03_02">
+  <component name="RunManager" selected="Go Build.go build acastle.dev/aoc/cmd/05_01">
     <configuration name="Run Day1-01" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="aoc" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -104,55 +105,56 @@
       <directory value="$PROJECT_DIR$/cmd/02_02" />
       <method v="2" />
     </configuration>
-    <configuration name="go build acastle.dev/aoc/cmd/03_01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build acastle.dev/aoc/cmd/05_01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="aoc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/cmd/03_01/main.go" />
-      <package value="acastle.dev/aoc/cmd/03_01" />
+      <filePath value="$PROJECT_DIR$/cmd/05_01/main.go" />
+      <package value="acastle.dev/aoc/cmd/05_01" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build acastle.dev/aoc/cmd/03_02" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProgram_Input in acastle.dev/aoc/pkg/intcode" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="aoc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/cmd/03_02/main.go" />
-      <package value="acastle.dev/aoc/cmd/03_02" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestMinStepsToIntersection in acastle.dev/aoc/pkg/nav" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="aoc" />
-      <working_directory value="$PROJECT_DIR$/pkg/nav" />
+      <working_directory value="$PROJECT_DIR$/pkg/intcode" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="acastle.dev/aoc/pkg/nav" />
+      <package value="acastle.dev/aoc/pkg/intcode" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMinStepsToIntersection$" />
+      <pattern value="^TestProgram_Input$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestNumberOfStepsToPoint in acastle.dev/aoc/pkg/nav" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProgram_Jump in acastle.dev/aoc/pkg/intcode" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="aoc" />
-      <working_directory value="$PROJECT_DIR$/pkg/nav" />
+      <working_directory value="$PROJECT_DIR$/pkg/intcode" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="acastle.dev/aoc/pkg/nav" />
+      <package value="acastle.dev/aoc/pkg/intcode" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestNumberOfStepsToPoint$" />
+      <pattern value="^TestProgram_Jump$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSumOfStepsToPoint in acastle.dev/aoc/pkg/nav" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProgram_Output in acastle.dev/aoc/pkg/intcode" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="aoc" />
-      <working_directory value="$PROJECT_DIR$/pkg/nav" />
+      <working_directory value="$PROJECT_DIR$/pkg/intcode" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="acastle.dev/aoc/pkg/nav" />
+      <package value="acastle.dev/aoc/pkg/intcode" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSumOfStepsToPoint$" />
+      <pattern value="^TestProgram_Output$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test acastle.dev/aoc/pkg/intcode" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="aoc" />
+      <working_directory value="$PROJECT_DIR$/pkg/intcode" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="acastle.dev/aoc/pkg/intcode" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
@@ -160,19 +162,19 @@
       <item itemvalue="Go Build.Run Day1-02" />
       <item itemvalue="Go Build.Run Day2-01" />
       <item itemvalue="Go Build.Run Day2-02" />
-      <item itemvalue="Go Build.go build acastle.dev/aoc/cmd/03_01" />
-      <item itemvalue="Go Build.go build acastle.dev/aoc/cmd/03_02" />
-      <item itemvalue="Go Test.TestNumberOfStepsToPoint in acastle.dev/aoc/pkg/nav" />
-      <item itemvalue="Go Test.TestSumOfStepsToPoint in acastle.dev/aoc/pkg/nav" />
-      <item itemvalue="Go Test.TestMinStepsToIntersection in acastle.dev/aoc/pkg/nav" />
+      <item itemvalue="Go Test.TestProgram_Input in acastle.dev/aoc/pkg/intcode" />
+      <item itemvalue="Go Test.TestProgram_Output in acastle.dev/aoc/pkg/intcode" />
+      <item itemvalue="Go Build.go build acastle.dev/aoc/cmd/05_01" />
+      <item itemvalue="Go Test.TestProgram_Jump in acastle.dev/aoc/pkg/intcode" />
+      <item itemvalue="Go Test.go test acastle.dev/aoc/pkg/intcode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build acastle.dev/aoc/cmd/03_02" />
-        <item itemvalue="Go Test.TestMinStepsToIntersection in acastle.dev/aoc/pkg/nav" />
-        <item itemvalue="Go Test.TestSumOfStepsToPoint in acastle.dev/aoc/pkg/nav" />
-        <item itemvalue="Go Test.TestNumberOfStepsToPoint in acastle.dev/aoc/pkg/nav" />
-        <item itemvalue="Go Build.go build acastle.dev/aoc/cmd/03_01" />
+        <item itemvalue="Go Build.go build acastle.dev/aoc/cmd/05_01" />
+        <item itemvalue="Go Test.TestProgram_Output in acastle.dev/aoc/pkg/intcode" />
+        <item itemvalue="Go Test.go test acastle.dev/aoc/pkg/intcode" />
+        <item itemvalue="Go Test.TestProgram_Jump in acastle.dev/aoc/pkg/intcode" />
+        <item itemvalue="Go Test.TestProgram_Input in acastle.dev/aoc/pkg/intcode" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +186,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -200,6 +204,11 @@
           <url>file://$PROJECT_DIR$/pkg/nav/grid_test.go</url>
           <line>24</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/cmd/04_01/main_test.go</url>
+          <line>54</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
